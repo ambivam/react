@@ -9,9 +9,9 @@ class App extends Component {
  render(){
   return (
     <div className="App">
-      <Greet name='Ambica' />
-      <Greet name='Teju' />
-      <Greet name='Bhavya' />
+      <Greet name='Ambica' likes='eating brain'/>
+      <Greet name='Teju' likes='eating '/>
+      <Greet name='Bhavya' likes='biscuts'/>
 
 
       {/* <Welcome /> */}
