@@ -17,8 +17,12 @@ class App extends Component {
       </Greet>
       <Greet name='Bhavya' likes='biscuts'/>
 
-
-      {/* <Welcome /> */}
+      {/* Using class components */}
+      <Welcome name='Ambica' likes='eating brain'>
+        <p>This is children props</p>
+      </Welcome> 
+      <Welcome name='Teju' likes='eating ' />
+      <Welcome name='Bhavya' likes='biscuts' />
       {/* <Hello /> */}
     </div>
   );
