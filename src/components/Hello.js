@@ -1,12 +1,17 @@
 import React from 'react'
 
 const Hello = () => { 
-    return (
-        <div>
-            <h1> Hello ATB</h1>
-        </div>
+    //Using JSX
+    // return (
+    //     <div>
+    //         <h1> Hello ATB</h1>
+    //     </div>
 
-    )
+    // )
+
+    //********Without JSX*************
+    return React.createElement('div',null,React.createElement('h1',null,'Hello ATB'))
+
 }
 
 export default Hello
