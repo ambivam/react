@@ -4,12 +4,22 @@ import React from 'react'
 //     return <h1>Hello RajaniKanth </h1>
 // }
 
-const Greet = (props) => {
-    console.log(props)
+//**********Using props*******************
+// const Greet = (props) => {
+//     console.log(props)
+//     return (
+//     <div>
+//         <h1>Hello {props.name} a.k.a {props.likes}</h1>
+//         {props.children}
+//     </div>
+//     )
+// }
+//**********Using Destructuring Props******
+const Greet = ({name,likes}) => {
+    console.log()
     return (
     <div>
-        <h1>Hello {props.name} a.k.a {props.likes}</h1>
-        {props.children}
+        <h1>Hello {name} a.k.a {likes}</h1>
     </div>
     )
 }

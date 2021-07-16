@@ -12,9 +12,11 @@ class App extends Component {
   return (
     <div className="App">
 
-      <Counter />
+      {/* <Counter /> */}
 
       {/* <Message /> */}
+
+      <Greet name='RajaniKanth' likes='The Great'></Greet>
 
       {/* <Greet name='Ambica' likes='eating brain'>
         <p>This is children props</p>
