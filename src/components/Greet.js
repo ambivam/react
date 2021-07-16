@@ -14,9 +14,19 @@ import React from 'react'
 //     </div>
 //     )
 // }
-//**********Using Destructuring Props******
-const Greet = ({name,likes}) => {
-    console.log()
+//**********Using Destructuring Props part1******
+// const Greet = ({name,likes}) => {
+//     console.log()
+//     return (
+//     <div>
+//         <h1>Hello {name} a.k.a {likes}</h1>
+//     </div>
+//     )
+// }
+
+//**********Using Destructuring Props part2******
+const Greet = props => {
+    const {name,likes} = props
     return (
     <div>
         <h1>Hello {name} a.k.a {likes}</h1>
