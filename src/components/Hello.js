@@ -10,7 +10,11 @@ const Hello = () => {
     // )
 
     //********Without JSX*************
-    return React.createElement('div',null,React.createElement('h1',null,'Hello ATB'))
+    return React.createElement(
+        'div',
+        {id: 'hello',className:'dummyClass'},
+        React.createElement('h1',null,'Hello ATB')
+    )
 
 }
 
