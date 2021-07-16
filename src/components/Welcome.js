@@ -13,6 +13,7 @@ class Welcome extends Component{
     //Destructuring props in class
     render(){
         const {name,likes} = this.props
+        //const {state1,state2} = this.state
         return (
         <div>
             <h1> Welcome {name} a.k.a {likes}</h1>
