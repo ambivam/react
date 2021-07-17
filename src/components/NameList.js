@@ -2,7 +2,7 @@ import React from 'react'
 import Person from './Person'
 
 function NameList() {
-    //const names = ['Bruce', 'Clarke', 'Diana']
+    const names = ['Bruce', 'Clarke', 'Diana','Diana']
     const persons = [
         {
             id:1,
@@ -23,13 +23,13 @@ function NameList() {
             skill: 'vue'
         }
     ]
-    //const nameList = names.map(name => <h2>{name}</h2>)
-    const personsList = persons.map(person => (
-        <Person key = {person.id} person={person} />
-    ))
+    const nameList = names.map((name,index) => <h2 key={index}> {index} : {name}</h2>)
+    // const personsList = persons.map(person => (
+    //     <Person key = {person.id} person={person} />
+    // ))
 
     return (
-        <div>{personsList}</div>
+        <div>{nameList}</div>
     )
 }
 
