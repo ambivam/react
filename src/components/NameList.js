@@ -2,10 +2,12 @@ import React from 'react'
 
 function NameList() {
     const names = ['Bruce','Clarke','Diana']
+    const nameList = names.map(name=><h2>{name}</h2>)
     return (
         <div>
            {
-               names.map(name => <h2>{name}</h2>)
+            //    names.map(name => <h2>{name}</h2>)
+            nameList
            }       
         </div>
     )
