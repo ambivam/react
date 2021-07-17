@@ -1,10 +1,13 @@
 import React from 'react'
 import './myStyle.css'
 
-function Stylesheets() {
+function Stylesheets({primary}) {
+
+    let className = primary ? 'primary' : ''
+
     return (
         <div>
-            <h1 className='primary'>StyleSheets</h1>
+            <h1 className={className}>StyleSheets</h1>
         </div>
     )
 }
