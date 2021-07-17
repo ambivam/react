@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import ParentComponent from './ParentComponent'
 
 class UserGreeting extends Component {
 
@@ -6,22 +7,26 @@ class UserGreeting extends Component {
         super(props)
 
         this.state = {
-            isLoggedIn: false
+            isLoggedIn: true
         }
     }
 
 
     render() {
 
-        let message
+        return(
+            (this.state.isLoggedIn) ? <div> Welcome Rajani Kanth</div> : <div> Welcome Guests </div>
+        )
+        
+        // let message
 
-        if(this.state.isLoggedIn){
-            message = <div>Welcome Rajani Kanth</div>
-        }else{
-            message = <div>Welcome Guests</div>
-        }
+        // if(this.state.isLoggedIn){
+        //     message = <div>Welcome Rajani Kanth</div>
+        // }else{
+        //     message = <div>Welcome Guests</div>
+        // }
 
-        return <div>{message}</div>
+        // return <div>{message}</div>
 
         // if (this.state.isLoggedIn) {
         //     return (
