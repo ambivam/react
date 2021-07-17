@@ -21,7 +21,7 @@ class App extends Component {
   return (
     <div className="App">
 
-      <Stylesheets primary={false}/>
+      <Stylesheets primary={true}/>
       
       {/* <NameList /> */}
 
