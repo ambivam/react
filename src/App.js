@@ -12,6 +12,7 @@ import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
+import Stylesheets from './components/Stylesheets';
 
 
 
@@ -20,7 +21,9 @@ class App extends Component {
   return (
     <div className="App">
 
-      <NameList />
+      <Stylesheets />
+      
+      {/* <NameList /> */}
 
       {/* <UserGreeting /> */}
 
