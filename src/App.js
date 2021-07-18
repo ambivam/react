@@ -13,6 +13,7 @@ import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
 import Stylesheets from './components/Stylesheets';
+import Inline from './components/Inline';
 
 
 
@@ -21,7 +22,8 @@ class App extends Component {
   return (
     <div className="App">
 
-      <Stylesheets primary={true}/>
+      <Inline />
+      {/* <Stylesheets primary={true}/> */}
       
       {/* <NameList /> */}
 
