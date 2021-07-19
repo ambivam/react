@@ -18,6 +18,7 @@ import './appStyles.css'
 import styles from './appStyles.modules.css'
 import Form from './components/Form';
 import LifecycleA from './components/LifecycleA';
+import FragmentDemo from './components/FragmentDemo';
 
 
 class App extends Component {
@@ -25,7 +26,8 @@ class App extends Component {
   return (
     <div className="App">
       
-      <LifecycleA />
+      <FragmentDemo />
+      {/* <LifecycleA /> */}
       {/* <Form /> */}
 
       {/* <h1 className='error'>Error</h1> */}
