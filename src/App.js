@@ -19,6 +19,7 @@ import styles from './appStyles.modules.css'
 import Form from './components/Form';
 import LifecycleA from './components/LifecycleA';
 import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table';
 
 
 class App extends Component {
@@ -26,7 +27,8 @@ class App extends Component {
   return (
     <div className="App">
       
-      <FragmentDemo />
+      <Table />
+      {/* <FragmentDemo /> */}
       {/* <LifecycleA /> */}
       {/* <Form /> */}
 
