@@ -28,6 +28,7 @@ import Focusinput from './components/Focusinput';
 import PortalDemo from './components/PortalDemo';
 import Hero from './components/Hero';
 import ErrorBoundary from './components/ErrorBoundary';
+import ClickCounter from './components/ClickCounter';
 
 
 
@@ -35,7 +36,12 @@ class App extends Component {
  render(){
   return (
     <div className="App">
-        <ErrorBoundary>
+        
+        <ClickCounter />
+        
+        
+        
+        {/* <ErrorBoundary>
         <Hero heroName="Batman" />
         </ErrorBoundary>
 
@@ -44,8 +50,7 @@ class App extends Component {
         </ErrorBoundary>
         <ErrorBoundary>
           <Hero heroName="Joker" />
-        </ErrorBoundary>
-        
+        </ErrorBoundary> */}       
       
 
       {/* <PortalDemo /> */}      
