@@ -32,6 +32,7 @@ import ClickCounter from './components/ClickCounter';
 import HoverCounter from './components/HoverCounter';
 import ClickCounterTwo from './components/ClickCounterTwo';
 import HoverCounterTwo from './components/HoverCounterTwo';
+import User from './components/User';
 
 
 
@@ -43,6 +44,7 @@ class App extends Component {
         
         <ClickCounterTwo />
         <HoverCounterTwo />
+        <User render={(isLoggedIn) => isLoggedIn ? 'RajaniKanth2' : 'Guest'} />
         
         {/* <HoverCounter name='RajaniKanth' />
         <ClickCounter />     */}
