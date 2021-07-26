@@ -20,6 +20,7 @@ class LifecycleB extends Component {
 
     componentDidMount(){
         console.log('Lifecycle B componentDidMount')
+        return true
     }
 
     shouldComponentUpdate(){
