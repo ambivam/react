@@ -39,7 +39,7 @@ class App extends Component {
     <div className="App">
         
         
-        <HoverCounter />
+        <HoverCounter name='RajaniKanth' />
         <ClickCounter />    
         
         
